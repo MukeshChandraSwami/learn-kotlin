@@ -11,5 +11,4 @@ fun main(args: Array<String>) {
     println(emp1 === emp4)
     println(emp1 == emp2)
     println(emp2 == emp3)
-
 }

@@ -12,4 +12,8 @@ class Employee (var name:String, var id:Int) {
     override fun hashCode(): Int {
         return javaClass.hashCode()
     }
+
+    override fun toString(): String {
+        return "Name :- $name and Id :- $id"
+    }
 }
