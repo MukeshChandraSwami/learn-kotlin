@@ -1,4 +1,4 @@
-package com.learn
+package com.learn.kotlin
 
 /**
  * Type aliases are declared once in the whole project and can be used everywhere as per their access specification
