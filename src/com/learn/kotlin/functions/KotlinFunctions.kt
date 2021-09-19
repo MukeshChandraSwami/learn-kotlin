@@ -17,4 +17,4 @@ class KotlinFunctions {
 
     // Single expression function with Unit return type
     fun double(a: Int) = println("Double is:- ${a * 2}")
-}
+} 
