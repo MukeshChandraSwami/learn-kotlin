@@ -9,5 +9,5 @@ fun main(args: Array<String>) {
 
     println("Square is: ${functionPractice.square(10)}")
 
-    functionPractice.double(20)
+    functionPractice.double(20) 
 }
