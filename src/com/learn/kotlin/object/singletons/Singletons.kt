@@ -1,4 +1,4 @@
-package com.learn.kotlin.singletons
+package com.learn.kotlin.`object`.singletons
 
 fun main() {
 
