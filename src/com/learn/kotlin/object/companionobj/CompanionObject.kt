@@ -45,14 +45,22 @@ interface CompanionObj {
     }
 }
 
-abstract class CompanionInheritanceTest: CompanionObj {
-    
+abstract class CompanionInheritanceTest {
+
+    abstract fun calculate(num1: Int, num2: Int, operation: String): Int
 }
 
-open class Factory private constructor(val factoryType: String) {
+open class Factory private constructor(val factoryType: String): CompanionInheritanceTest() {
 
-    companion object Mango: Factory("Mango") {
+    companion object Mango: CompanionInheritanceTest() {
 
+        // Need some help here to understand the hidden magic
+        override fun calculate(num1: Int, num2: Int, operation: String): Int {
+            TODO("Not yet implemented")
+        }
+    }
 
+    override fun calculate(num1: Int, num2: Int, operation: String): Int {
+        TODO("Not yet implemented")
     }
 }
