@@ -15,4 +15,5 @@ fun String.toCamelCase(): String {
 
 fun Employee.createDuplicate() = Employee(this.name, this.id)
 
-
+fun Int.isEven() = this.rem(2) == 0
+fun Int.isOdd() = this.rem(2) != 0
